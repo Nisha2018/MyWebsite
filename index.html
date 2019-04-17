@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="gallery/5.png">
+	<title>My Website</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="JS/script.js"></script>
+</head>		
+<body>
+	<!--Main container starts-->
+	<main>
+		<header>
+			<div class="logo">
+				<img src="images/Logo.png" alt="logo">
+			</div>
+
+			<div class="menu">
+				<ul>
+				  <li><a href="#">Home</a></li>
+				  <li><a href="#">About <i class="fas fa-caret-down  fa-lg"></i></a>
+				  	<ul>
+				  		<li><a href="#">Services</a><a href="#">Branches</a><a href="#">Services</a><a href="#">Branches</a></li>
+				  		<li><a href="#">Products</a><a href="#">Location</a><a href="#">Products</a><a href="#">Location</a></li>
+				  		<li><a href="#">Customers</a><a href="#">Clients</a><a href="#">Customers</a><a href="#">Clients</a></li>
+				  	</ul>
+				  </li>
+				  <li><a href="#">Blog</a></li>
+				  <li><a href="#">Contact</a></li>
+				</ul> 
+				<span>
+			    <input type="button" value="Log In" name="btn" id="btn" onclick="newDoc()">
+				<input type="button" value="Sign Up" name="btn">
+			    </span>
+			</div>
+		</header>
+	
+		<!--Title Page-->
+		<div class="title">
+			<section>
+			   <h1 class="heading">Creative Digital<br>Solutions</h1>
+			   <p>Proin iaculis purus consequat sem cure.</p>
+			   <button>View Portfolio</button>
+		    </section>
+		</div>
+
+		<!--Services Page-->
+		<div class="services">
+			<section class="services_top">
+			   <h1>Professional Services</h1>
+			   <p>Proin iaculis purus consequat sem cure </p>
+		    </section>
+			    <div class="services_bottom">   
+			  <section>
+			  	  <img src="Images/Icon - Heart.png" alt="icon">
+			  	  <h1>beautiful designs</h1>
+			  	  <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+			  </section>
+			  <section>
+			  	  <img src="Images/Icon - Mobile.png" alt="icon">
+			  	  <h1>responsive web</h1>
+			  	  <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+			  </section>
+			  <section>
+			  	  <img src="Images/Icon - Graph.png" alt="icon">
+			  	  <h1>Marketing tools</h1>
+			  	  <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+			  </section>
+		    </div>
+		</div>   
+		
+		<!--Just_Relax Page-->
+		<div class="just_relax">
+			<section>
+				<h1>Just relax & <br>let us do the heavy lifting</h1>
+				<p>Proin iaculis purus consequat sem cure  digni ssim. Donec<br>porttitora entum suscipit  aenean rhoncus posuere odio in tincidunt.</p>
+				<ul>
+					<li>Initial Setup & Customizations</li>
+					<li>Regular Updates</li>
+					<li>Round The Clock Support</li>
+				</ul>
+				<button>Learn More</button>
+			</section>		
+		</div>
+
+		<!--Projects Page-->
+		<div class="latest_project">
+			<div class="services_top">
+				<h1>latest project</h1>
+				<p>Proin iaculis purus consequat sem cure </p>
+			</div>
+			<div class="items">
+				<section>
+					<h1>developing a framework</h1>
+					<p>Proin iaculis purus consequat sem cure digni ssim<br>Donec porttitora entum suscipit aenean rhoncus posuere<br> odio in tincidunt.</p>
+					<dl>
+						<dt><i class="fa fa-briefcase fa-2x"></i>E-Commerce Ready</dt>
+						<dd>Proin iaculis purus consequat sem cure  digni ssim.</dd>
+						<dt><i class="fab fa-accessible-icon fa-2x"></i>Powerful SEO Features</dt>
+						<dd>Proin iaculis purus consequat sem cure  digni ssim.</dd>
+						<dt><i class="fas fa-shield-alt fa-2x"></i>Secure Encryption</dt>
+						<dd>Proin iaculis purus consequat sem cure  digni ssim.</dd>
+					</dl>
+			
+					<p>Proin iaculis purus consequat sem cure digni ssim donec<br> porttitora entum suscipit aenean rhoncus posuere odio in</p>
+					<a href="#">VIEW DETAILS  <i class="fas fa-arrow-right"></i></a>
+				</section>
+				<section>
+					<img src="gallery/1.png" id="pic" alt="pic" width="600" height="500">
+					<input type="button" value="<" name="previous" onclick="previous()">
+					<input type="button" value=">" name="next" onclick="next()">
+				</section>
+				</div>
+				
+				<!--Culture Page-->
+		<div class="culture">
+			<div class="services_top">
+				<h1>Culture and Values</h1>
+				<p>Proin iaculis purus consequat sem cure </p>
+			</div>
+			<div>
+				<i class="fas fa-music fa-3x"></i><hr>
+				<i class="fas fa-signal fa-3x"></i><hr>
+				<i class="far fa-star fa-3x"></i>
+			</div>
+			<div class="services_bottom text">
+				<section>
+					<h1>Work-Life Balance</h1>
+					<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+				</section>
+				<section>
+					<h1>Quality Over Quantity</h1>
+					<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+				</section>
+				<section>
+					<h1>Deliver Excellence</h1>
+					<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+				</section>
+			</div>
+		</div>
+
+		<!--Clients Page-->
+		<div class="clients">
+			<div class="services_top">
+				<h1>Our awesome clients</h1>
+				<p>Proin iaculis purus consequat sem cure </p>
+			</div>
+			<div class="team">
+				<section class="profile">
+					<div class="profile desc">
+						<h1>Colt Steele</h1>
+						<p>Developer and Bootcamp Instructor</p>
+						<p>Launching my first course on Treehouse allowed me to quit my full-time job and start my own company. </p>
+					</div>
+				</section>
+				<section class="profile">
+					<div class="profile desc">
+						<h1>Jean Lurssen</h1>
+						<p>Watercolorist</p>
+						<p>Treehouse has given me the opportunity to reach a global audience for my classes that wouldn’t have been possible otherwise.</p>
+					</div>	
+				</section>
+				<section class="profile">
+					<div class="profile desc">
+						<h1>Stephen Grider</h1>
+						<p>Engineering Architect</p>
+						<p>There's no greater success on the Treehouse marketplace than hearing that you've helped a student achieve their goals.</p>
+					</div>	
+				</section>
+			</div>
+		</div>
+
+		<!--Contact Page-->
+		<div class="ready_to_talk">
+			<h1>ready to talk about your next project?</h1>
+			<button onclick="contact()">Contact Us</button>
+		</div>
+		<div class="logos">
+			<img src="Images/Envato.png" alt="logo">
+			<img src="Images/WordPress.png" alt="logo">
+			<img src="Images/Tuts+.png" alt="logo">
+			<img src="Images/Microlancer copy.png" alt="logo">
+		</div>
+
+		<!--Footer starts-->
+		<footer>
+			<div class="top_footer">
+				<section>
+					<h1>Contact Us</h1>
+					<ul>
+						<li><i class="fas fa-map-marker-alt fa-2x"></i><a href="#">55 Main St.<br><span>Toronto, ON</span><br><span>M1H 3A5</span></a></li>
+						<li><i class="fas fa-mobile-alt fa-2x"></i><a href="#">(416) 555-5252</a></li>
+						<li><i class="fas fa-envelope fa-2x"></i><a href="#">hello@treehouse.com</a></li>
+					</ul>
+				</section>
+				<section>
+					<h1>Latest Posts</h1>
+					<ul>
+						<li><i class="far fa-address-card fa-2x"></i><a href="#">Made With Love In Toronto</a></li>
+						<li><i class="fas fa-image fa-2x"></i><a href="#">Startup News & Emerging Tech</a></li>
+						<li><i class="far fa-address-card fa-2x"></i><a href="#">Bitcoin Will Soon Rule The World</a></li>
+						<li><i class="far fa-address-card fa-2x"></i><a href="#">Wearable Technology On The Rise</a></li>
+						<li><i class="fas fa-play fa-2x"></i><a href="#">Learn Web Design In 30 Days!</a></li>
+					</ul>
+				</section>
+				<section>
+					<h1>Latest Tweets</h1>
+					<ul>
+						<li><i class="fab fa-twitter fa-2x"></i><a href="#">Confucius: Life is really simple, but <span>we insist on making it complicated.
+						</span></a></li>
+						<p>#famousquotes</p>
+        				<p>8 mins ago</p>
+						<li><i class="fab fa-twitter fa-2x"></i><a href="#">Grab the Free Treehouse web <span>template at FreebiesXpress!</span></a></li>
+						<p>#freebies #templates</p>
+						<p>2 days ago</p>
+					</ul>
+				</section>
+			</div>
+			<div class="bottom_footer">
+				<p>&copy Copyright 2019 FreebiesXpress.com</p>
+				<a id="twitter" href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+				<a id="facebook" href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+				<a id="pinterest" href="#"><i class="fab fa-pinterest-square fa-2x"></i></a>
+				<a id="google" href="#"><i class="fab fa-google-plus-square fa-2x"></i></a>
+				<button onclick="topFunction()" id="top" title="Go to top">Top</button>
+			</div>
+		</footer>
+		<!--Footer ends-->
+
+	</main>
+	<!--Main container ends-->
+</body>
+</html>
